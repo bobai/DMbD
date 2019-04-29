@@ -28,7 +28,6 @@ We have implemented a number of features based on the work in this activity.
 SDUCloud is a service for live research data, which provides secure data storage, data analysis/processing, and discoverability of data. Such integrated solutions are sometimes called &quot;Virtual Research Environments&quot;.
 </documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="c9d7bb35-836c-4079-addd-946c74258118"/>
     <element xsi:type="archimate:ApplicationComponent" name="SDU: Cloud Storage" id="47c4185f-076b-4a77-85bc-2a411f9992d5">
       <documentation>The storage platform of SDUCloud is designed to store all kinds of live research data.
 This includes large datasets, as well as sensitive or confidential data. 
@@ -70,7 +69,6 @@ time.
 We plan to extend the platform to allow the composition of individual applications together to create a workflow. We define workflows using machine readable documents, like the ones used for applications.
 </documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="a4ddf758-da35-4b1f-8a4c-b8b415c7595f"/>
     <element xsi:type="archimate:ApplicationComponent" name="CBS: Personal drive (H-drives)" id="8377a309-0f73-4ccc-b60f-3059fe3fefc6">
       <documentation>You have access to a personal drive on a server. Access to this drive only happens through login with your username and password. It is recommended to save your data on this drive, since a backup will be made every night. Furthermore, you can always access this drive no matter which CBS computer you are working from. As default, 2 GB have been allocated to the H-drive.</documentation>
     </element>
@@ -867,7 +865,6 @@ Examples: Copyright, Patent, Trademark</documentation>
       <documentation>Protection of data that must be kept confidential
 </documentation>
     </element>
-    <element xsi:type="archimate:Requirement" name="Data" id="ce466699-d975-43d3-9a43-88d12f603861"/>
     <element xsi:type="archimate:Driver" name="Information Security Governance" id="e3a9d7de-e3b3-4337-9db9-a1d91424f49c">
       <documentation>Protection of the organisations information assets</documentation>
     </element>
@@ -920,7 +917,6 @@ This enables the implemantation of automated policy checks. </documentation>
       <documentation>The national archive can demand that data is submitted in an accepted format for preservation.
 </documentation>
     </element>
-    <element xsi:type="archimate:Goal" name="Goal" id="931c3383-205e-428c-9130-8288c1f892c1"/>
     <element xsi:type="archimate:Driver" name="GDPR - General Data Protection Regulation " id="a7d01333-3f41-4b30-8c5f-6624b31535a6">
       <documentation>The General Data Protection Regulation is a regulation in EU Law on data protection and privacy for individuals within the European Union</documentation>
     </element>
@@ -1025,9 +1021,6 @@ In an academic study validity is the aggregate of:
     </element>
     <element xsi:type="archimate:Goal" name="Publishable data" id="fdacd5c7-347f-49ad-9a0e-21c18fcabb18">
       <documentation>Data that can be shared with a wider community.</documentation>
-    </element>
-    <element xsi:type="archimate:Goal" name="Valid data" id="44e18be3-bbe9-4c9c-a2ff-e342403fd709">
-      <documentation>Validation of data is integral </documentation>
     </element>
     <element xsi:type="archimate:Requirement" name="Easy access to capacity scaling" id="9bc6c153-594e-49f1-8761-69305698965e">
       <documentation>The infrastructure can quickly accomodate dynamic changes to the resource requirements of an experiment. 
@@ -1490,7 +1483,6 @@ Examples of how an infratructure can support data standards:
     <element xsi:type="archimate:AssociationRelationship" id="d52204fa-be6f-4a14-acd7-08dff03bbabf" source="3672e0b2-e727-4644-90c1-c058470d5926" target="4244aa4c-5aeb-42e9-9422-e1a5bbb73734"/>
     <element xsi:type="archimate:AssociationRelationship" id="7fccfac4-46db-4377-9fc9-05965fe3e7f9" source="df3f4435-2475-4670-8514-086bf2e3593c" target="4244aa4c-5aeb-42e9-9422-e1a5bbb73734"/>
     <element xsi:type="archimate:AssociationRelationship" id="054a9071-dd0c-4cdd-8930-8f4e904234f9" source="99c91cca-de16-406b-8866-891aa19b214f" target="fdacd5c7-347f-49ad-9a0e-21c18fcabb18"/>
-    <element xsi:type="archimate:CompositionRelationship" id="1af2786c-59fb-448e-a359-74dab98aea2c" source="2c472f5d-84e7-46be-85ca-fa4bcadd251e" target="44e18be3-bbe9-4c9c-a2ff-e342403fd709"/>
     <element xsi:type="archimate:CompositionRelationship" id="ddee3669-f217-48ad-9ea8-0734768628fc" source="85d04349-9774-4cd2-ad73-589ab9b36742" target="9bc6c153-594e-49f1-8761-69305698965e"/>
     <element xsi:type="archimate:CompositionRelationship" id="1eedf4e9-089f-4df4-8e4d-31f39e78c263" source="85d04349-9774-4cd2-ad73-589ab9b36742" target="cd1ebb3d-e41f-47e5-9590-7c108c0c7e0e"/>
     <element xsi:type="archimate:CompositionRelationship" id="815fc2cc-f708-4b77-9103-53173919c373" source="85d04349-9774-4cd2-ad73-589ab9b36742" target="1a62d523-a24e-4b38-9125-b334530f9050"/>
